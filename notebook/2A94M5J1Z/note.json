@@ -90,11 +90,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "import sys.process._\nsqlContext: org.apache.spark.sql.SQLContext \u003d org.apache.spark.sql.SQLContext@8e4cf51\nwarning: there were 1 feature warning(s); re-run with -feature for details\nzeppelinHome: String \u003d /home/langley/lab/zeppelin\nbankText: org.apache.spark.rdd.RDD[String] \u003d /home/langley/lab/zeppelin/data/bank-full.csv MapPartitionsRDD[1] at textFile at \u003cconsole\u003e:31\ndefined class Bank\nbank: org.apache.spark.sql.DataFrame \u003d [age: int, job: string, marital: string, education: string, balance: int]\n"
+        "msg": "import sys.process._\nsqlContext: org.apache.spark.sql.SQLContext \u003d org.apache.spark.sql.SQLContext@29ec1cc5\nwarning: there were 1 feature warning(s); re-run with -feature for details\nzeppelinHome: String \u003d /home/langley/lab/zeppelin\nbankText: org.apache.spark.rdd.RDD[String] \u003d /home/langley/lab/zeppelin/data/bank-full.csv MapPartitionsRDD[1] at textFile at \u003cconsole\u003e:28\ndefined class Bank\nbank: org.apache.spark.sql.DataFrame \u003d [age: int, job: string, marital: string, education: string, balance: int]\n"
       },
       "dateCreated": "Feb 10, 2015 1:52:59 AM",
-      "dateStarted": "Mar 24, 2015 8:49:22 PM",
-      "dateFinished": "Mar 24, 2015 8:49:29 PM",
+      "dateStarted": "Mar 26, 2015 9:10:43 PM",
+      "dateFinished": "Mar 26, 2015 9:10:47 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -253,7 +253,7 @@
       },
       "settings": {
         "params": {
-          "marital": "single"
+          "marital": "divorced"
         },
         "forms": {
           "marital": {
@@ -279,11 +279,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "TABLE",
-        "msg": "age\tvalue\n18\t12\n19\t35\n20\t47\n21\t74\n22\t120\n23\t175\n24\t248\n25\t423\n26\t615\n27\t658\n28\t697\n29\t683\n30\t1012\n31\t1017\n32\t941\n33\t746\n34\t650\n35\t631\n36\t538\n37\t453\n38\t394\n39\t346\n40\t257\n41\t241\n42\t218\n43\t183\n44\t170\n45\t146\n46\t130\n47\t100\n48\t124\n49\t101\n50\t76\n51\t72\n52\t62\n53\t71\n54\t55\n55\t54\n56\t45\n57\t38\n58\t35\n59\t36\n60\t27\n61\t5\n63\t2\n66\t5\n67\t3\n68\t4\n69\t2\n70\t1\n71\t1\n72\t5\n73\t2\n77\t1\n83\t2\n86\t1\n"
+        "msg": "age\tvalue\n24\t1\n25\t6\n26\t20\n27\t18\n28\t16\n29\t39\n30\t70\n31\t98\n32\t137\n33\t151\n34\t149\n35\t186\n36\t192\n37\t170\n38\t167\n39\t181\n40\t169\n41\t175\n42\t184\n43\t173\n44\t184\n45\t177\n46\t193\n47\t162\n48\t166\n49\t160\n50\t164\n51\t154\n52\t150\n53\t163\n54\t177\n55\t163\n56\t169\n57\t148\n58\t121\n59\t151\n60\t104\n61\t19\n62\t6\n63\t7\n64\t9\n65\t9\n66\t5\n67\t8\n68\t6\n69\t8\n70\t13\n71\t11\n72\t3\n73\t6\n74\t5\n75\t12\n76\t8\n77\t5\n78\t12\n79\t8\n80\t2\n81\t8\n82\t9\n83\t8\n84\t3\n85\t1\n86\t2\n87\t1\n89\t1\n90\t2\n94\t1\n95\t1\n"
       },
       "dateCreated": "Feb 13, 2015 11:04:22 PM",
-      "dateStarted": "Mar 24, 2015 8:49:43 PM",
-      "dateFinished": "Mar 24, 2015 8:49:43 PM",
+      "dateStarted": "Mar 26, 2015 9:52:56 PM",
+      "dateFinished": "Mar 26, 2015 9:52:56 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -324,9 +324,9 @@
         "params": {},
         "forms": {}
       },
-      "jobName": "paragraph_1423836471379_293523076",
-      "id": "20150213-230751_1038476812",
-      "dateCreated": "Feb 13, 2015 11:07:51 PM",
+      "jobName": "paragraph_1427420818407_872443482",
+      "id": "20150326-214658_12335843",
+      "dateCreated": "Mar 26, 2015 9:46:58 PM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }

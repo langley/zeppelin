@@ -73,3 +73,6 @@ auto-save-list
 tramp
 .\#*
 *.swp
+
+# JRL tweaks
+HackData
