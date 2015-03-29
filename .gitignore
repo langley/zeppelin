@@ -30,7 +30,7 @@ jobs/
 zan-repo/
 drivers/
 warehouse/
-notebook/
+# JRL -- I want to track these! -- notebook/
 local-repo/
 
 **/sessions/
